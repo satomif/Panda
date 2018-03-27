@@ -7,8 +7,5 @@
             "email": "akihito.koriyama@gmail.com"
         }
     ],
-    "require": {},
-    "include-path": [
-      "./"
-    ]
+    "require": {}
 }
