@@ -1,0 +1,21 @@
+{
+  "name": "bearsaturday/panda",
+  "descriptions": "Panda is a PHP error handler.",
+  "license": "BSD-3-Closure",
+  "authors": [
+    {
+      "name": "Akihito Koriyama",
+      "email": "akihito.koriyama@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "pear/pear": "1.10.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "include-path": [
+    "./"
+  ]
+}
