@@ -8,14 +8,23 @@
       "email": "akihito.koriyama@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "pear",
+      "url": "http://pear.php.net"
+    }
+  ],
   "require": {
     "php": ">=5.4.0",
-    "pear/pear": "1.10.5"
+    "pear-pear.php.net/Pear": "1.10.5"
   },
   "require-dev": {
     "phpunit/phpunit": "4.8.*"
   },
   "include-path": [
     "./"
-  ]
+  ],
+  "config":{
+    "secure-http" : false
+  }
 }
